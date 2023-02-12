@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*home page*/
+#hed{
+font-size:60px;
+}
+/*home page*/
+
+/*offer section*/
+#btn:hover{
+    background:orange;
+}
+i{
+    color: orange;
+}
+/*offer section*/
+
+/*brand section*/
+.brand0{
+    background: #EED3B6;
+
+}
+#brand{
+    font-size:500%;
+    margin-bottom:30px;
+}
+/*brand section*/
+
+/*footer section*/
+footer{
+    background: #2B2A2A;
+}
+footer h3,h6{
+    color: aliceblue;
+}
+ul li a,p{
+    color:#999999;
+}
+#footer-icon{
+    color:orange;
+}
+/*footer section*/
+
+/*responsive*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   /*home page*/
+#hed{
+    font-size:15px;
+    }
+    /*home page*/
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ /*home page*/
+#hed{
+    font-size:20px;
+    }
+    /*home page*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   /*home page*/
+#hed{
+    font-size:30px;
+    }
+    /*home page*/ 
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   /*home page*/
+#hed{
+    font-size:40px;
+    }
+    /*home page*/ 
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   /*home page*/
+#hed{
+    font-size:60px;
+    }
+    /*home page*/
+    }
+   /*responsive*/
